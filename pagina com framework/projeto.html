@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos Online</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+
+                <a class="navbar-brand fw-bold" href="#">Cursos Online</a>
+
+                <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Abrir menu">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                    <ul class="navbar-nav me-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#inicio">Página Inicial</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inscricoes">Inscrições</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cursos">Cursos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+
+                    </ul>
+
+                    <a href="#inscricoes" class="btn btn-primary">
+                        Cadastre-se
+                    </a>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- SEÇÃO DE DESTAQUE -->
+        <section id="inicio" class="bg-primary text-white text-center py-5">
+
+            <div class="container">
+
+                <h1 class="display-4 fw-bold">
+                    Aprenda hoje. Transforme seu futuro!
+                </h1>
+
+                <p class="lead mt-3">
+                    Encontre cursos online e desenvolva novas habilidades
+                    no seu próprio ritmo.
+                </p>
+
+                <a href="#cursos" class="btn btn-light btn-lg mt-3">
+                    Conheça nossos cursos
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- CURSOS EM DESTAQUE -->
+        <section id="cursos" class="container py-5">
+
+            <h2 class="text-center mb-4">
+                Cursos em Destaque
+            </h2>
+
+            <div class="row g-4">
+
+                <!-- DIREITO -->
+                <div class="col-12 col-md-6 col-lg-4">
+
+                    <div class="card h-100 shadow-sm">
+
+                        <img src="https://faro.edu.br/wp-content/uploads/2018/03/171187-tarefa-para-1902-ate-18h-post-3000-tudo-que-voce-precisa-saber-sobre-as-x-melhores-areas-do-direito.jpg"
+                        class="card-img-top"
+                        alt="Livros de Direito">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Direito</h5>
+
+                            <p class="card-text">
+                                Conheça as áreas jurídicas e desenvolva
+                                conhecimentos sobre leis e justiça.
+                            </p>
+
+                            <a href="#inscricoes" class="btn btn-primary">
+                                Saiba mais
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- ENGENHARIA -->
+                <div class="col-12 col-md-6 col-lg-4">
+
+                    <div class="card h-100 shadow-sm">
+
+                        <img src="https://laboro.edu.br/wp-content/uploads/Quais-sao-os-tipos-de-engenharia.jpg"
+                        class="card-img-top"
+                        alt="Projeto de Engenharia">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Engenharia</h5>
+
+                            <p class="card-text">
+                                Explore diferentes áreas da engenharia
+                                e aprenda a desenvolver soluções inovadoras.
+                            </p>
+
+                            <a href="#inscricoes" class="btn btn-primary">
+                                Saiba mais
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- MEDICINA -->
+                <div class="col-12 col-md-6 col-lg-4">
+
+                    <div class="card h-100 shadow-sm">
+
+                        <img src="https://i0.wp.com/sanarmed.com/wp-content/uploads/2024/03/media-463.jpg?fit=767%2C626&ssl=1"
+                        class="card-img-top"
+                        alt="Estudos de Medicina">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Medicina</h5>
+
+                            <p class="card-text">
+                                Descubra conhecimentos sobre saúde,
+                                cuidado humano e ciências médicas.
+                            </p>
+
+                            <a href="#inscricoes" class="btn btn-primary">
+                                Saiba mais
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FORMULÁRIO DE INSCRIÇÃO -->
+        <section id="inscricoes" class="bg-light py-5">
+
+            <div class="container">
+
+                <h2 class="text-center mb-4">
+                    Faça sua inscrição
+                </h2>
+
+                <div class="row justify-content-center">
+
+                    <div class="col-12 col-md-8 col-lg-6">
+
+                        <form>
+
+                            <div class="mb-3">
+
+                                <label for="nome" class="form-label">
+                                    Nome completo
+                                </label>
+
+                                <input type="text"
+                                class="form-control"
+                                id="nome"
+                                placeholder="Digite seu nome"
+                                required>
+
+                            </div>
+
+
+                            <div class="mb-3">
+
+                                <label for="email" class="form-label">
+                                    E-mail
+                                </label>
+
+                                <input type="email"
+                                class="form-control"
+                                id="email"
+                                placeholder="Digite seu e-mail"
+                                required>
+
+                            </div>
+
+
+                            <button type="submit" class="btn btn-primary w-100">
+                                Enviar inscrição
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer id="contato" class="bg-dark text-white text-center py-4">
+
+        <div class="container">
+
+            <h5>Cursos Online</h5>
+
+            <p>
+                Educação e oportunidades para todos.
+            </p>
+
+            <p>
+                Entre em contato: contato@cursosonline.com
+            </p>
+
+            <p class="mb-0">
+                &copy; 2026 Cursos Online. Todos os direitos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
